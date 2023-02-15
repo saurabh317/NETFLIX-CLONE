@@ -9,7 +9,7 @@
     
 }
 .nav_black{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 
 .nav_contents {
@@ -19,15 +19,17 @@
 
 .nav_logo {
   position: fixed;
-  top: 1rem;
-  left: 0;
-  width: 9rem;
+  top: 0.2rem;
+  left: 2.2rem;
+  width: 12rem;
   cursor: pointer;
 }
 
 .nav_avatar {
   position: fixed;
-  right: 2rem;
+  top: 1.5rem;
+  right: 3rem;
   width: 4rem;
+  border-radius: 30%;
   cursor: pointer;
 }
