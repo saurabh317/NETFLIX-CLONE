@@ -1,0 +1,92 @@
+.wrapper {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignIn {
+  animation: slide-down 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.553);
+  height: 28rem;
+  width: 38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.SignIn_head {
+  margin: 1rem 0 0.8rem 0;
+  font-size: 2.5rem;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+}
+
+.Text_field {
+  margin: 4px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 30rem;
+  height: 4rem;
+  border-radius: 4px;
+}
+
+.SignIn_button {
+  margin: 5px;
+  height: 3rem;
+  width: 30rem;
+  background-color: #e50914;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  border-radius: 3px;
+}
+
+.SignIn_SignUp {
+  display: flex;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.SignIn_para1 {
+  margin-right: 7px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.SignIn_para2 {
+  color: #fff;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(-5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
