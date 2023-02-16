@@ -1,7 +1,9 @@
 import React from 'react';
 import './Login.css';
+;
 
 const GetStarted = () => {
+ 
   return (
     <>
     <div className="Login_getStarted">
@@ -9,9 +11,10 @@ const GetStarted = () => {
         <p className="Login_para">Watch Anywhere, Anytime</p>
         <form action="">
         <input type="email" className="Login_input" placeholder="Email address"/>
-        <button  type="submit"  className="GetStarted_button btn">Get Started</button>
+        <button  type="submit"  className="GetStarted_button btn" >Get Started</button>
         </form>
       </div>
+      
 
     </>
   )

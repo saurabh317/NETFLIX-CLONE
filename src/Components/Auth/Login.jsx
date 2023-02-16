@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import logo from "../../ASSETS/Logo.png";
 import GetStarted from "./GetStarted";
 import "./Login.css";
@@ -11,14 +10,16 @@ const Login = () => {
     <div className="Login">
       <div className="Login_contents">
         <img className="Login_logo" src={logo} alt="LOGO" />
-        <NavLink to="">
-          <button className="Login_button btn" onClick={()=>{setShowSignIn(true)}}>SignIn</button>
-        </NavLink>
+
+        <button
+          className="Login_button btn"
+          onClick={() => {
+            setShowSignIn(true);
+          }}>
+          SignIn
+        </button>
       </div>
-      {showSignIn? <SignIn/> : <GetStarted/>}
-      
-      
-      
+      {showSignIn ? <SignIn /> : <GetStarted />}
     </div>
   );
 };
