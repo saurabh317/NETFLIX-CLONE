@@ -1,4 +1,89 @@
-h2{
-    color: white;
+.profileScreen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.profileScreen_body {
+  width: 49rem;
+}
+
+.profileScreen_head {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.profileScreen__info {
+  display: flex;
+  width: 48rem;
+  justify-content: space-between;
+}
+
+.profile_avatar {
+  width: 6rem;
+  height: 5rem;
+}
+
+.profileScreen_details {
+  width: 40rem;
+  height: 30rem;
+}
+
+.profileHead_div {
+  margin-bottom: 1rem;
+  background-color: #888;
+  height: 3rem;
+  width: 39rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.profile_head {
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
+.plan_para {
+  color: #777;
+}
+
+.profile_para {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.profile_Plan {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.plan_head {
+  color: white;
+}
+
+.plan_btn {
+  font-weight: 700;
+  width: 8rem;
+  padding: 5px;
+  background-color: #e50914;
+}
+
+.suscribe {
+  background-color: grey;
+}
+
+.profile_signout {
+  font-weight: bold;
+  background-color: #e50914;
+  margin-top: 1.5rem;
+  width: 40rem;
+  height: 3rem;
+  cursor: pointer;
+  color: #fff;
 }

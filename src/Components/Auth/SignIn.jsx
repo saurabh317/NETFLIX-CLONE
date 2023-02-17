@@ -22,6 +22,8 @@ const SignIn = () => {
       passwordRef.current.value
     )
       .then((userCredential) => {
+        // console.log(userCredential);
+        console.log(userCredential.user.email)
         toast.success("login SuccessFull...");
         navigate("/home");
       })
