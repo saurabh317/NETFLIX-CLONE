@@ -113,3 +113,14 @@ form {
     width: 25rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .Login_head {
+    font-size: 2rem;
+  }
+  .Login_para {
+    font-size: 1.5rem;
+  }
+  .Login_input {
+    width: 25rem;
+  }
+}
