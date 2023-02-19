@@ -7,6 +7,11 @@
 
 .profileScreen_body {
   width: 49rem;
+  justify-content: center;
+    display: flex;
+    width: 49rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profileScreen_head {
@@ -86,4 +91,75 @@
   height: 3rem;
   cursor: pointer;
   color: #fff;
+}
+
+@media screen and (max-width:820px) {
+  .profile_avatar {
+    width: 5rem;
+    height: 4rem;
+  }
+  .profileHead_div {
+    font-size: 1rem;
+    width: 30rem;
+  }
+  .profile_Plan {
+    width: 31rem;
+  }
+  .profile_signout {
+   
+    width: 31rem;
+   
+  }
+  .profileScreen_body {
+    width: 40rem;
+   
+  }
+  .profileScreen__info {
+   
+    width: 42rem;
+    
+  }
+  .profileScreen_details {
+    width: 35rem;
+    height: 30rem;
+  }
+ 
+  
+}
+/* @media screen and (max-width:820px) {
+
+  
+} */
+@media screen and (max-width:480px) {
+  .profile_avatar {
+    width: 4rem;
+    height: 3rem;
+  }
+  .profileHead_div {
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .profile_Plan {
+    width: 26rem;
+  }
+  .profile_signout {
+   
+    width: 26rem;
+   
+  }
+  .profileScreen_body {
+    width: 35rem;
+   
+  }
+  .profileScreen__info {
+   
+    width: 33rem;
+    
+  }
+  .profileScreen_details {
+    width: 27rem;
+    height: 30rem;
+  }
+
+  
 }

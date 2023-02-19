@@ -1,79 +1,115 @@
-.Login{
-    height: 100vh;
-    background-image: url("https://assets.reedpopcdn.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png/BROK/thumbnail/1200x600/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+.Login {
+  height: 100vh;
+  background-image: url("https://assets.reedpopcdn.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png/BROK/thumbnail/1200x600/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
 }
 
-.Login_contents{
-    padding-top: 20px;
-    display: flex;
+.Login_contents {
+  padding-top: 20px;
+  display: flex;
 }
 
-.Login_logo{
-    position: fixed;
-    top: -0.3rem;
-    left: 2.2rem;
-    width: 13rem;
-    /* cursor: pointer; */
+.Login_logo {
+  position: fixed;
+  top: -0.3rem;
+  left: 2.2rem;
+  width: 13rem;
+  /* cursor: pointer; */
 }
 
-.Login_button{
-    position: fixed;
-    right: 3rem;
-    width: 7.5rem;
-    height: 3.4rem;
+.Login_button {
+  position: fixed;
+  right: 3rem;
+  width: 7.5rem;
+  height: 3.4rem;
 }
 
-.btn{
-    border: none;
-    padding: 7px 10px;
-    font-size: 1.45rem;
-    font-weight: 600;
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-    color: white;
-    background-color: #e50914;
+.btn {
+  border: none;
+  padding: 7px 10px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #e50914;
 }
 
-.Login_getStarted{
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.Login_getStarted {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.Login_head{
-    color: white;
-    font-size: 4.5rem;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+.Login_head {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
 }
 
-.Login_para{
-    margin: 2px 0;
-    color: white;
+.Login_para {
+  margin: 2px 0;
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.Login_input {
+  width: 42rem;
+  height: 5rem;
+  padding: 10px;
+  font-size: 2rem;
+  outline: none;
+}
+
+.GetStarted_button {
+  margin-left: 2px;
+  height: 5rem;
+}
+
+@media screen and (max-width: 825px) {
+  .Login_head {
     font-size: 3rem;
-    font-weight: 400;
-    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
-}
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-}
-
-.Login_input{
-    width: 42rem;
-    height: 5rem;
-    padding: 10px;
+  }
+  .Login_para {
     font-size: 2rem;
-    outline: none;
+  }
+  .Login_input {
+    margin-top: 1rem;
+  }
+  .GetStarted_button {
+    margin-top: 1rem;
+  }
 }
-
-.GetStarted_button{
-    margin-left: 2px;
-    height: 5rem;
+@media screen and (max-width: 570px) {
+  .Login_head {
+    font-size: 2.5rem;
+  }
+  .Login_para {
+    font-size: 1.7rem;
+  }
+  .Login_input {
+    width: 30rem;
+  }
 }
-
+@media screen and (max-width: 460px) {
+  .Login_head {
+    font-size: 2.2rem;
+  }
+  .Login_para {
+    font-size: 1.5rem;
+  }
+  .Login_input {
+    width: 25rem;
+  }
+}
