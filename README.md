@@ -1,4 +1,4 @@
-#have a look on the app (https://netflix317.netlify.app/)
+# HAVE A LOOK ON THE APPLICATION (https://netflix317.netlify.app/)
 
 # Getting Started with Create React App and Redux
 
