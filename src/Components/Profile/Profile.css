@@ -77,6 +77,10 @@
   width: 8rem;
   padding: 5px;
   background-color: #e50914;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
 }
 
 .suscribe {
@@ -91,6 +95,10 @@
   height: 3rem;
   cursor: pointer;
   color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
 }
 
 @media screen and (max-width:820px) {
