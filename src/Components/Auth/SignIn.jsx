@@ -66,7 +66,7 @@ const SignIn = () => {
 
             <div className="SignIn_SignUp">
               <p className="SignIn_para1">New To Netflix?</p>
-              <NavLink to="./SignUp" className="link">
+              <NavLink to="/SignUp" className="link" replace>
                 <p className="SignIn_para2">Sign Up now</p>
               </NavLink>
             </div>
